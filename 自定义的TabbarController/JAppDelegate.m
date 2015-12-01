@@ -7,12 +7,18 @@
 //
 
 #import "JAppDelegate.h"
+#import "JTabBarViewController.h"
 
 @implementation JAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    JTabBarViewController *tabbarviewcontroller=[[JTabBarViewController alloc] init];
+    self.window.rootViewController = tabbarviewcontroller;
+    
     return YES;
 }
 							

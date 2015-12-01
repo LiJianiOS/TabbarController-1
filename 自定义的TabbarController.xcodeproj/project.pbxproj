@@ -14,13 +14,23 @@
 		E7D1B8A61C0C17FB0027A51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8A51C0C17FB0027A51D /* main.m */; };
 		E7D1B8AA1C0C17FB0027A51D /* JAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8A91C0C17FB0027A51D /* JAppDelegate.m */; };
 		E7D1B8AD1C0C17FB0027A51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D1B8AB1C0C17FB0027A51D /* Main.storyboard */; };
-		E7D1B8B01C0C17FB0027A51D /* JViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8AF1C0C17FB0027A51D /* JViewController.m */; };
 		E7D1B8B21C0C17FB0027A51D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D1B8B11C0C17FB0027A51D /* Images.xcassets */; };
 		E7D1B8B91C0C17FB0027A51D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D1B8B81C0C17FB0027A51D /* XCTest.framework */; };
 		E7D1B8BA1C0C17FB0027A51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D1B8991C0C17FB0027A51D /* Foundation.framework */; };
 		E7D1B8BB1C0C17FB0027A51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D1B89D1C0C17FB0027A51D /* UIKit.framework */; };
 		E7D1B8C31C0C17FB0027A51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7D1B8C11C0C17FB0027A51D /* InfoPlist.strings */; };
 		E7D1B8C51C0C17FB0027A51D /* ____TabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8C41C0C17FB0027A51D /* ____TabbarControllerTests.m */; };
+		E7D1B8D21C0C19310027A51D /* JTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8D11C0C19310027A51D /* JTabbar.m */; };
+		E7D1B8D51C0C1BB50027A51D /* JTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8D41C0C1BB50027A51D /* JTabbarButton.m */; };
+		E7D1B8D91C0C29760027A51D /* UIImage+Jimg.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8D81C0C29760027A51D /* UIImage+Jimg.m */; };
+		E7D1B8DC1C0C29950027A51D /* UIBarButtonItem+JWL.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8DB1C0C29950027A51D /* UIBarButtonItem+JWL.m */; };
+		E7D1B8DF1C0C2D0E0027A51D /* JTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8DE1C0C2D0E0027A51D /* JTabBarViewController.m */; };
+		E7D1B8E21C0C37CD0027A51D /* JhomepageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8E11C0C37CD0027A51D /* JhomepageTableViewController.m */; };
+		E7D1B8E51C0C37E70027A51D /* JmessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8E41C0C37E70027A51D /* JmessageTableViewController.m */; };
+		E7D1B8E81C0C38020027A51D /* JuserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8E71C0C38020027A51D /* JuserTableViewController.m */; };
+		E7D1B8EB1C0C384F0027A51D /* JsquareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8EA1C0C384F0027A51D /* JsquareTableViewController.m */; };
+		E7D1B8EE1C0C390E0027A51D /* WBNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8ED1C0C390E0027A51D /* WBNavigationViewController.m */; };
+		E7D1B8F11C0C39880027A51D /* JComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1B8F01C0C39880027A51D /* JComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +55,34 @@
 		E7D1B8A81C0C17FB0027A51D /* JAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAppDelegate.h; sourceTree = "<group>"; };
 		E7D1B8A91C0C17FB0027A51D /* JAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAppDelegate.m; sourceTree = "<group>"; };
 		E7D1B8AC1C0C17FB0027A51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7D1B8AE1C0C17FB0027A51D /* JViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JViewController.h; sourceTree = "<group>"; };
-		E7D1B8AF1C0C17FB0027A51D /* JViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JViewController.m; sourceTree = "<group>"; };
 		E7D1B8B11C0C17FB0027A51D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E7D1B8B71C0C17FB0027A51D /* 自定义的TabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义的TabbarControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D1B8B81C0C17FB0027A51D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E7D1B8C01C0C17FB0027A51D /* 自定义的TabbarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "自定义的TabbarControllerTests-Info.plist"; sourceTree = "<group>"; };
 		E7D1B8C21C0C17FB0027A51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7D1B8C41C0C17FB0027A51D /* ____TabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____TabbarControllerTests.m"; sourceTree = "<group>"; };
+		E7D1B8D01C0C19310027A51D /* JTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTabbar.h; sourceTree = "<group>"; };
+		E7D1B8D11C0C19310027A51D /* JTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTabbar.m; sourceTree = "<group>"; };
+		E7D1B8D31C0C1BB50027A51D /* JTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTabbarButton.h; sourceTree = "<group>"; };
+		E7D1B8D41C0C1BB50027A51D /* JTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTabbarButton.m; sourceTree = "<group>"; };
+		E7D1B8D71C0C29710027A51D /* UIImage+Jimg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Jimg.h"; sourceTree = "<group>"; };
+		E7D1B8D81C0C29760027A51D /* UIImage+Jimg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Jimg.m"; sourceTree = "<group>"; };
+		E7D1B8DA1C0C29950027A51D /* UIBarButtonItem+JWL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JWL.h"; sourceTree = "<group>"; };
+		E7D1B8DB1C0C29950027A51D /* UIBarButtonItem+JWL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JWL.m"; sourceTree = "<group>"; };
+		E7D1B8DD1C0C2D0E0027A51D /* JTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTabBarViewController.h; sourceTree = "<group>"; };
+		E7D1B8DE1C0C2D0E0027A51D /* JTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTabBarViewController.m; sourceTree = "<group>"; };
+		E7D1B8E01C0C37CD0027A51D /* JhomepageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhomepageTableViewController.h; sourceTree = "<group>"; };
+		E7D1B8E11C0C37CD0027A51D /* JhomepageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JhomepageTableViewController.m; sourceTree = "<group>"; };
+		E7D1B8E31C0C37E70027A51D /* JmessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JmessageTableViewController.h; sourceTree = "<group>"; };
+		E7D1B8E41C0C37E70027A51D /* JmessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JmessageTableViewController.m; sourceTree = "<group>"; };
+		E7D1B8E61C0C38020027A51D /* JuserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuserTableViewController.h; sourceTree = "<group>"; };
+		E7D1B8E71C0C38020027A51D /* JuserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuserTableViewController.m; sourceTree = "<group>"; };
+		E7D1B8E91C0C384F0027A51D /* JsquareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsquareTableViewController.h; sourceTree = "<group>"; };
+		E7D1B8EA1C0C384F0027A51D /* JsquareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsquareTableViewController.m; sourceTree = "<group>"; };
+		E7D1B8EC1C0C390E0027A51D /* WBNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavigationViewController.h; sourceTree = "<group>"; };
+		E7D1B8ED1C0C390E0027A51D /* WBNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNavigationViewController.m; sourceTree = "<group>"; };
+		E7D1B8EF1C0C39880027A51D /* JComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JComposeViewController.h; sourceTree = "<group>"; };
+		E7D1B8F01C0C39880027A51D /* JComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JComposeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +142,12 @@
 		E7D1B89F1C0C17FB0027A51D /* 自定义的TabbarController */ = {
 			isa = PBXGroup;
 			children = (
+				E7D1B8D61C0C29430027A51D /* Category */,
+				E7D1B8CF1C0C18EE0027A51D /* Controller */,
+				E7D1B8CE1C0C18DD0027A51D /* View */,
 				E7D1B8A81C0C17FB0027A51D /* JAppDelegate.h */,
 				E7D1B8A91C0C17FB0027A51D /* JAppDelegate.m */,
 				E7D1B8AB1C0C17FB0027A51D /* Main.storyboard */,
-				E7D1B8AE1C0C17FB0027A51D /* JViewController.h */,
-				E7D1B8AF1C0C17FB0027A51D /* JViewController.m */,
 				E7D1B8B11C0C17FB0027A51D /* Images.xcassets */,
 				E7D1B8A01C0C17FB0027A51D /* Supporting Files */,
 			);
@@ -150,6 +181,49 @@
 				E7D1B8C11C0C17FB0027A51D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7D1B8CE1C0C18DD0027A51D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1B8D01C0C19310027A51D /* JTabbar.h */,
+				E7D1B8D11C0C19310027A51D /* JTabbar.m */,
+				E7D1B8D31C0C1BB50027A51D /* JTabbarButton.h */,
+				E7D1B8D41C0C1BB50027A51D /* JTabbarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7D1B8CF1C0C18EE0027A51D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1B8EC1C0C390E0027A51D /* WBNavigationViewController.h */,
+				E7D1B8ED1C0C390E0027A51D /* WBNavigationViewController.m */,
+				E7D1B8DD1C0C2D0E0027A51D /* JTabBarViewController.h */,
+				E7D1B8DE1C0C2D0E0027A51D /* JTabBarViewController.m */,
+				E7D1B8E01C0C37CD0027A51D /* JhomepageTableViewController.h */,
+				E7D1B8E11C0C37CD0027A51D /* JhomepageTableViewController.m */,
+				E7D1B8E31C0C37E70027A51D /* JmessageTableViewController.h */,
+				E7D1B8E41C0C37E70027A51D /* JmessageTableViewController.m */,
+				E7D1B8E61C0C38020027A51D /* JuserTableViewController.h */,
+				E7D1B8E71C0C38020027A51D /* JuserTableViewController.m */,
+				E7D1B8E91C0C384F0027A51D /* JsquareTableViewController.h */,
+				E7D1B8EA1C0C384F0027A51D /* JsquareTableViewController.m */,
+				E7D1B8EF1C0C39880027A51D /* JComposeViewController.h */,
+				E7D1B8F01C0C39880027A51D /* JComposeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7D1B8D61C0C29430027A51D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1B8DA1C0C29950027A51D /* UIBarButtonItem+JWL.h */,
+				E7D1B8DB1C0C29950027A51D /* UIBarButtonItem+JWL.m */,
+				E7D1B8D81C0C29760027A51D /* UIImage+Jimg.m */,
+				E7D1B8D71C0C29710027A51D /* UIImage+Jimg.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +325,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D1B8A61C0C17FB0027A51D /* main.m in Sources */,
+				E7D1B8EB1C0C384F0027A51D /* JsquareTableViewController.m in Sources */,
+				E7D1B8E21C0C37CD0027A51D /* JhomepageTableViewController.m in Sources */,
+				E7D1B8E51C0C37E70027A51D /* JmessageTableViewController.m in Sources */,
+				E7D1B8D51C0C1BB50027A51D /* JTabbarButton.m in Sources */,
+				E7D1B8D91C0C29760027A51D /* UIImage+Jimg.m in Sources */,
+				E7D1B8F11C0C39880027A51D /* JComposeViewController.m in Sources */,
 				E7D1B8AA1C0C17FB0027A51D /* JAppDelegate.m in Sources */,
-				E7D1B8B01C0C17FB0027A51D /* JViewController.m in Sources */,
+				E7D1B8D21C0C19310027A51D /* JTabbar.m in Sources */,
+				E7D1B8DC1C0C29950027A51D /* UIBarButtonItem+JWL.m in Sources */,
+				E7D1B8EE1C0C390E0027A51D /* WBNavigationViewController.m in Sources */,
+				E7D1B8E81C0C38020027A51D /* JuserTableViewController.m in Sources */,
+				E7D1B8DF1C0C2D0E0027A51D /* JTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

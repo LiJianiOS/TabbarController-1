@@ -1,5 +1,5 @@
 //
-//  JViewController.h
+//  JuserTableViewController.h
 //  自定义的TabbarController
 //
 //  Created by bcc_cae on 15-11-30.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JViewController : UIViewController
+@interface JuserTableViewController : UITableViewController
 
 @end
